@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hao.minademo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_startService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启Mina连接服务"
+        />
+    <Button
+        android:id="@+id/btn_stopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭服务"
+        />
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一条消息"
+        />
+
+
+</LinearLayout>
